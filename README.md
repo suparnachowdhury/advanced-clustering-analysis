@@ -165,7 +165,6 @@ customer-segmentation-clustering/
 │
 ├── results/
 │   ├── cluster_profiles.csv
-│   ├── evaluation_metrics.csv
 │   └── insights.md
 │
 ├── requirements.txt
