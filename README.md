@@ -109,7 +109,6 @@ scipy>=1.7.0
 jupyter>=1.0.0
 ```
 
-## 💻 Usage
 
 ### Quick Start
 
@@ -136,7 +135,7 @@ python scripts/run_all_clustering.py
 python scripts/generate_visualizations.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 customer-segmentation-clustering/
 │
@@ -175,7 +174,7 @@ customer-segmentation-clustering/
 └── .gitignore
 ```
 
-## 📈 Results & Insights
+## Results & Insights
 
 ### K-Means Clustering (K=3)
 
@@ -265,7 +264,7 @@ The article covers:
 - Cluster interpretation techniques
 - Common pitfalls and best practices
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/customer-segmentation-clustering/issues).
 
@@ -277,11 +276,11 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Contact
+## Contact
 
 **Suparna Chowdhury**
 
