@@ -40,11 +40,6 @@ This project demonstrates practical implementation of three major clustering alg
 - Multiple linkage methods comparison (Ward, Complete, Average)
 - Nested cluster structure analysis
 
-### 3. **DBSCAN (Density-Based Spatial Clustering)**
-- Density-based clustering for arbitrary shapes
-- Automatic outlier detection
-- No need to specify number of clusters
-- Parameter optimization (eps and min_samples)
 
 ## 📊 Dataset
 
@@ -120,20 +115,7 @@ jupyter notebook
 1. **`01_data_exploration.ipynb`** - Data loading, EDA, and preprocessing
 2. **`02_kmeans_clustering.ipynb`** - K-Means implementation and analysis
 3. **`03_hierarchical_clustering.ipynb`** - Hierarchical clustering with dendrograms
-4. **`04_dbscan_clustering.ipynb`** - DBSCAN implementation
-5. **`05_comparison_analysis.ipynb`** - Comparative evaluation of all methods
 
-### Running Python Scripts
-```bash
-# Run K-Means clustering
-python scripts/kmeans_analysis.py
-
-# Run all clustering algorithms
-python scripts/run_all_clustering.py
-
-# Generate visualizations
-python scripts/generate_visualizations.py
-```
 
 ## Project Structure
 ```
@@ -149,25 +131,17 @@ customer-segmentation-clustering/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_kmeans_clustering.ipynb
 │   ├── 03_hierarchical_clustering.ipynb
-│   ├── 04_dbscan_clustering.ipynb
-│   └── 05_comparison_analysis.ipynb
-│
-├── scripts/
-│   ├── kmeans_analysis.py
-│   ├── hierarchical_analysis.py
-│   ├── dbscan_analysis.py
-│   └── utils.py
+│  
 │
 ├── visualizations/
 │   ├── kmeans/
 │   ├── hierarchical/
-│   └── dbscan/
+│ 
 │
 ├── results/
 │   ├── cluster_profiles.csv
 │   └── insights.md
 │
-├── requirements.txt
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -177,20 +151,27 @@ customer-segmentation-clustering/
 
 ### K-Means Clustering (K=3)
 
-**Cluster 0: High-Density Urban Stress Zones**
-- High population density and air pollution
-- Lower income and happiness scores
-- Limited green spaces
+**Cluster 1: Prosperous Low-Stress Communities (50% of cities)**
 
-**Cluster 1: Low-Income Underserved Regions**
-- Low income and internet penetration
-- Poor public transport infrastructure
-- Lower overall quality of life indicators
+- High socioeconomic index
+- Low urban stress and pollution
+- High green comfort
+- Strong affordability balance
+- Business Application: Prime targets for premium services, lifestyle brands, and sustainable urban development initiatives
 
-**Cluster 2: Affluent High-Quality Living Areas**
-- Above-average income and happiness
-- Better air quality and green spaces
-- Strong public infrastructure
+**Cluster 2: Low-Income Peripheral Areas (29% of cities)**
+
+- Low income and technology penetration
+- Moderate environmental quality
+- Limited infrastructure
+- Business Application: Opportunities for affordable housing, basic infrastructure development, and digital inclusion programs
+
+**Cluster 3: Dense, High-Stress Urban Centers (21% of cities)**
+
+- Very high urban stress and pollution
+- Moderate technology infrastructure
+- Poor green comfort and affordability
+- Business Application: Need for environmental remediation, affordable housing solutions, and stress-reduction services
 
 ### Key Visualizations
 
@@ -203,13 +184,6 @@ customer-segmentation-clustering/
 ![Dendrogram](visualizations/hierarchical/dendrogram.png)
 *Hierarchical clustering dendrogram*
 
-### Performance Metrics
-
-| Algorithm | Silhouette Score | Davies-Bouldin Index | Execution Time |
-|-----------|------------------|---------------------|----------------|
-| K-Means (k=3) | 0.XX | X.XX | X.XX s |
-| Hierarchical | 0.XX | X.XX | X.XX s |
-| DBSCAN | 0.XX | X.XX | X.XX s |
 
 ## 🛠 Technologies Used
 
