@@ -226,9 +226,10 @@ Through this project, I developed expertise in:
 
 ## 📝 Article
 
-I wrote a comprehensive Medium article explaining K-Means clustering in detail:
+I wrote a comprehensive  article explaining K-Means clustering in detail:
 
-**[Understanding K-Means Clustering: A Practical Guide for Unsupervised Learning](your-medium-article-link)**
+**[Understanding K-Means Clustering: A Practical Guide for Unsupervised Learning](https://medium.com/@suparnachowdhury/understanding-k-means-clustering-a-practical-guide-for-unsupervisied-learning-1b59dbc21c0d)**
+**[Decoding Urban Patterns with K-Means Clustering: A Feature-Engineered Approach to City Segmentation].(https://www.linkedin.com/pulse/decoding-urban-patterns-k-means-clustering-approach-city-chowdhury-7dxxc/)**
 
 The article covers:
 - Theoretical foundations of K-Means
