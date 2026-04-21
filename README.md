@@ -238,7 +238,7 @@ The article covers:
 - Common pitfalls and best practices
 
 I published a comprehensive article on LinkedIn that provides an in-depth explanation of this project, including methodology and key insights:
-**[Decoding Urban Patterns with K-Means Clustering: A Feature-Engineered Approach to City Segmentation].(https://www.linkedin.com/pulse/decoding-urban-patterns-k-means-clustering-approach-city-chowdhury-7dxxc/)**
+**[Decoding Urban Patterns with K-Means Clustering: A Feature-Engineered Approach to City Segmentation](https://www.linkedin.com/pulse/decoding-urban-patterns-k-means-clustering-approach-city-chowdhury-7dxxc/)**
 
 ## Contributing
 
